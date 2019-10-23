@@ -3,7 +3,6 @@ package com.homeWorks;
 public class Student extends Person /*implements Drinkable, Sleep*/ {
 
     public String idNumber;
-
     public double gpa;
 
 

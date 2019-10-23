@@ -7,9 +7,25 @@ public class CollegeStudent extends Student {
     public String majorSubject;
 
 
-    public CollegeStudent(String name, String gender, int age, int year, String majorSubject) {
-        super(name, gender, age);
+    public CollegeStudent(String name, String gender, int age, int year, String majorSubject, String idNumber, double gpa) {
+        super(name, gender, age, idNumber, gpa );
         this.year = year;
+        this.majorSubject = majorSubject;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getMajorSubject() {
+        return majorSubject;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setMajorSubject(String majorSubject) {
         this.majorSubject = majorSubject;
     }
 

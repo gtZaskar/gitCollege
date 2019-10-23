@@ -31,10 +31,11 @@ public class Teacher extends Person /*implements Killable, Drinkable, Sleep*/ {
     @Override
     public String toString() {
         return "Teacher{" +
-                "name='" + name + '\'' +
+                "salary=" + salary +
+                ", subject='" + subject + '\'' +
+                ", name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
                 '}';
     }
-
 }
