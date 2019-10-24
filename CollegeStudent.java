@@ -13,6 +13,10 @@ public class CollegeStudent extends Student {
         this.majorSubject = majorSubject;
     }
 
+    public CollegeStudent(){
+        System.out.print ("I am a college student ");
+    }
+
     public int getYear() {
         return year;
     }

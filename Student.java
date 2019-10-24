@@ -12,6 +12,10 @@ public class Student extends Person /*implements Drinkable, Sleep*/ {
         this.gpa = gpa;
     }
 
+    public Student() {
+        System.out.println("I am a student ");
+    }
+
     public String getIdNumber() {
         return idNumber;
     }

@@ -12,6 +12,10 @@ public class Teacher extends Person /*implements Killable, Drinkable, Sleep*/ {
         this.subject = subject;
     }
 
+    public Teacher() {
+        System.out.println("I am a teacher ");
+    }
+
     public double getSalary() {
         return salary;
     }

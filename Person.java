@@ -1,5 +1,9 @@
 package com.homeWorks;
 
+import org.w3c.dom.ls.LSOutput;
+
+import java.sql.SQLOutput;
+
 public class Person {
 
     public String name;
@@ -11,6 +15,12 @@ public class Person {
         this.gender = gender;
         this.age = age;
     }
+
+    public Person (){
+        System.out.print ("I am a person ");
+    }
+
+
 
     public String getName() {
         return name;
