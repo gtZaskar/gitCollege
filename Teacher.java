@@ -35,11 +35,11 @@ public class Teacher extends Person /*implements Killable, Drinkable, Sleep*/ {
     @Override
     public String toString() {
         return "Teacher{" +
-                "salary=" + salary +
-                ", subject='" + subject + '\'' +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
+                ", salary=" + salary +
+                ", subject='" + subject + '\'' +
                 '}';
     }
 }
